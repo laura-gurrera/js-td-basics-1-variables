@@ -8,4 +8,4 @@ Affichez dans la console :
 console.log('Laura');
 
 // Votre âge (nombre)
-console.log('22');
+console.log(22);
