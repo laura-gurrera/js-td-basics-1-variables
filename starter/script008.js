@@ -22,7 +22,7 @@ console.log(job);
 
 // 5. Affectez la valeur "Enseignant" à la variable job et affichez-la.
 job='Enseignant';
-console.log(job);
+console.log(job);s
 
 // 6. Respectez les règles de nommage des variables : le nom ne peut pas
 // - commencer par un chiffre
