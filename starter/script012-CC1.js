@@ -16,18 +16,27 @@ const heightJohn=1.85;
 // 2. Calculez le BMI de chacun.
 const bmiMark= weightMark/(heightMark*heightMark);
 const bmiJohn=weightJohn/(heightJohn*heightJohn);
+// ou const bmiJohn=weightJohn/ Math.pow(heightJohn,2);
 
 console.log(`Le BMI de Mark est de ${bmiMark}`);
 console.log(`Le BMI de John est de ${bmiJohn}`);
 
 // 3. Créez une variable booléenne qui contient l'information de savoir
 //    si le BMI de Mark est plus élevé que celui de John.
-const isBmiMarkHigherThanJohn= bmiMark>bmiJohn;
+const isBmiMarkHigherThanBmiJohn= bmiMark>bmiJohn;
 
 // 4. Imprimez une chaîne de caractères dans la console contenant la
 //    variable de l'étape 3 (Quelque chose du genre "Est-ce que le BMI de
 //    Mark est plus élevé que celui de John ? true").
-console.log(`Est-ce que le BMI de Mark est plus élevé que celui de John ? ${isBmiMarkHigherThanJohn}`);
 
+if(bmiMark>bmiJohn) {
+    console.log('Le BMI de Mark est plus élevé que celui de John');
+} else if (bmiMark===bmiJohn) {
+    console.log('Mark et John ont le même BMI');
+} else {
+    console.log('Le BMI de John est plus élevé que celui de Mark');
+}
+
+//console.log(`Est-ce que le BMI de Mark est plus élevé que celui de John ? ${isBmiMarkHigherThanBmiJohn}`);
 //
 // BONNE CHANCE 😀

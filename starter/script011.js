@@ -10,8 +10,10 @@
 
 // Affectations multiples
 // 3. Déclarez deux variables x et y. Utilisez des affectations multiples pour leur donner des valeurs. Par exemple, x = 5 et y = 10. Affichez les valeurs de x et y.
-const x=5;
-const y=10;
+
+const x=5, y=10;
+// const x=5;
+// const y=10;
 console.log(x,y);
 
 // Autres opérateurs

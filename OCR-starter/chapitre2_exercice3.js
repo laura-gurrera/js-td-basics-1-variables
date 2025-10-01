@@ -6,3 +6,12 @@
 /*
 // Échange de nombre1 et nombre2 sans variable temporaire
 */
+let a=7;
+let b=3;
+let tmp=null;
+
+/* tmp= a;
+a= b;
+b= tmp; */
+
+[a,b]=[b,a];
